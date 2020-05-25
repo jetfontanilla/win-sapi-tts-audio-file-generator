@@ -20,6 +20,7 @@ voice = tts.sapi.Sapi()
 
 voice.set_voice(config['voice'])
 voice.set_rate(int(config['rate']))
+voice.set_volume(int(config['volume']))
 
 reader = csv.reader(_read_transcript_lines())
 for row in reader:

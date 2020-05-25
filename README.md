@@ -5,7 +5,7 @@ using Win SpVoice Interface (SAPI) with python to generate audio files
 # Set-up
 
 ```bash
-$ pip install git+https://github.com/DeepHorizons/tts
+$ pip install git+https://github.com/jetfontanilla/tts
 ```
 # Configuration
 
