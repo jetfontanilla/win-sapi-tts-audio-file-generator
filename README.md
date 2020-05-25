@@ -7,6 +7,9 @@ using Win SpVoice Interface (SAPI) with python to generate audio files
 ```bash
 $ pip install git+https://github.com/DeepHorizons/tts
 ```
+# Configuration
+
+edit config.ini to change to a different Voice Bank, or change other TTS parameters
 
 # Running
 create a CSV file with the unique ID as the first parameter and the transcript to run as the second. the run this command
