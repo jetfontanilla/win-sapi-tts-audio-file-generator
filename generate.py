@@ -3,7 +3,7 @@
 from os.path import dirname, realpath
 import csv
 import configparser
-import tts.sapi
+from tts import sapi
 
 def _load_config():
     config = configparser.ConfigParser()
@@ -34,7 +34,7 @@ def _generate_phoneme_xml(phonemes, phoneme_set='sapi'):
 
 
 config = _load_config()
-voice = tts.sapi.Sapi()
+voice = sapi.Sapi()
 
 voice.set_voice(config['voice'])
 voice.set_rate(int(config['rate']))
