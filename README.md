@@ -15,7 +15,7 @@ if phonemes are provided, it will ignore the transcript parameter
 to generate the audio files, run this command
 
 ```bash
-$ pip python generator.py
+$ python generator.py
 ```
 
 generated audio files will be in the output folder
