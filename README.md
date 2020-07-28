@@ -1,4 +1,4 @@
-# win-sapi-tts-audio-file-generator
+# Windows SAPI Text-to-Speech / Phoneme-to-Speech Audio File Generator
 using Win SpVoice Interface (SAPI) with python to generate audio files
 
 
